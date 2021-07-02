@@ -7,30 +7,26 @@ class CalculatorTest {
 
 
     @Test
-    void addition() {
+    void testAddition() {
         Calculator calculator = new Calculator();
-        int value = calculator.addition(50, 50);
-        assertEquals(100, value);
+        assertEquals(calculator.addition(50, 50),100);
     }
 
     @Test
-    void subtraction() {
+    void testSubtraction() {
         Calculator calculator = new Calculator();
-        int value = calculator.subtraction(100, 50);
-        assertEquals(50, value);
+        assertEquals(calculator.subtraction(100, 50), 50);
     }
 
     @Test
-    void multiplication() {
+    void testMultiplication() {
         Calculator calculator = new Calculator();
-        int value = calculator.multiplication(10, 2);
-        assertEquals(20, value);
+        assertEquals(calculator.multiplication(10, 2), 20);
     }
 
     @Test
-    void division() {
+    void testDivision() {
         Calculator calculator = new Calculator();
-        float value = calculator.division(5, 2);
-        assertEquals(2.5f, value);
+        assertEquals(calculator.division(5, 2), 2.5f);
     }
 }
