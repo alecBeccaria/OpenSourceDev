@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/31.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/41.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/61.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JunitTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JunitTest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/21.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/31.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/31.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/41.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/41.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/51.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/51.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/61.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/61.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,17 +66,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +89,8 @@
       <workItem from="1625840480208" duration="538000" />
       <workItem from="1625841040810" duration="48000" />
       <workItem from="1625841132830" duration="1398000" />
+      <workItem from="1625847903871" duration="228000" />
+      <workItem from="1625848333526" duration="32000" />
     </task>
     <servers />
   </component>

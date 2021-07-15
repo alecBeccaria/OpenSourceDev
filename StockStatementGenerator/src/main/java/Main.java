@@ -12,15 +12,16 @@ public class Main {
     }
 
     public static void writeHTML(JSONObject customerRecord) {
-        String strHTMLTop = "<!DOCTYPE html><html><body><br>";
-        String strHTMLBottom = "</body></html>";
 
-        String strHTMLCustInfo = String.format("<h1>%s</h1><p>%s %s</p>"
-                +"<br><p>%s</p>\r\n", LocalDate.now(), customerRecord.get("first_name"), customerRecord.get("last_name"), customerRecord.get("ssn"));
-        String strHTMLSummary = String.format("<p>Cash Value: %s</p>\r\n<p> Stock Value:"
-        + " %s</p>\r\n", "cash", "stock");
-        String strHTMLTableTradeTop = "<table style:100%>\r\n<tr><th>Type</th>"
+        String strHTMLTop = "<!DOCTYPE html><html><body>\r\n";
+        String strHTMLBottom = "</body></html>";
+        String strHTMLCustInfo = String.format("<h1>%s</h1><p>%s %s</p>\r\n<p>%s</p><br>",
+                LocalDate.now(), customerRecord.get("first_name"), customerRecord.get("last_name"), customerRecord.get("ssn"));
+        String strHTMLTableTradeTop = "<table style=\"width:100%\">\r\n<tr><th>Type</th>"
                 + "<th>Symbol</th><th>Price</th><th>Shares</th><th>Total</th></tr>";
+        String strHTMLTableTradeBottom = "</table>\r\n";
+        String strHTMLSummary = String.format("<p>Cash Value: %s</p>\r\n<p>Stock Value:"
+                + " %s</p>\r\n", "cash", "stock");
         String strFileName = customerRecord.get("account_number").toString();
 
         FileWriter fw;
