@@ -5,35 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39235753-d0a2-4efa-92da-d210f92cfc8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/target/test-classes/test.class" afterDir="false" />
     </list>
@@ -41,6 +29,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -57,6 +52,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex" />
+      <module name="RegexStuff" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Regex" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,10 +75,26 @@
       <option name="presentableId" value="Default" />
       <updated>1626360130534</updated>
       <workItem from="1626360131813" duration="254000" />
+      <workItem from="1626444942361" duration="354000" />
+      <workItem from="1626445309261" duration="964000" />
+      <workItem from="1626446323567" duration="155000" />
+      <workItem from="1626446651530" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
