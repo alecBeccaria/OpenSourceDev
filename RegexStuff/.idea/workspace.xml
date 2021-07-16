@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39235753-d0a2-4efa-92da-d210f92cfc8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/data/2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/data/2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/target/test-classes/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="39235753-d0a2-4efa-92da-d210f92cfc8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +58,7 @@
       <workItem from="1626444942361" duration="354000" />
       <workItem from="1626445309261" duration="964000" />
       <workItem from="1626446323567" duration="155000" />
-      <workItem from="1626446651530" duration="502000" />
+      <workItem from="1626446651530" duration="565000" />
     </task>
     <servers />
   </component>
