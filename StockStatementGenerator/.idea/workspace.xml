@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +60,7 @@
       <recent name="C:\Users\abeccaria\Documents\GitHub\OpenSourceDev\StockStatementGenerator\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
@@ -120,8 +113,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.test" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test.testForPDF" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test.testForHTML" />
       </list>
     </recent_temporary>
