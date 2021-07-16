@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RegexStuff/src/main/java/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhoneNumber/src/main/java/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RegexStuff/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RegexStuff/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/10.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/6.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/7.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/8.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/9.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,10 +123,7 @@
       <workItem from="1626299481024" duration="401000" />
       <workItem from="1626308641432" duration="2343000" />
       <workItem from="1626358188541" duration="2319000" />
-      <workItem from="1626444347317" duration="587000" />
-      <workItem from="1626445301033" duration="212000" />
-      <workItem from="1626445817626" duration="457000" />
-      <workItem from="1626446483161" duration="712000" />
+      <workItem from="1626391952740" duration="1580000" />
     </task>
     <servers />
   </component>
@@ -153,16 +144,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
