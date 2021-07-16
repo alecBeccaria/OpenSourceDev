@@ -12,7 +12,7 @@ public class Main {
         readJSON();
     }
 
-    public static void writeHTML(JSONObject customerRecord, StringBuilder strHTMLTableTradeTop, double cashValue, double stockValue) {
+    public static boolean writeHTML(JSONObject customerRecord, StringBuilder strHTMLTableTradeTop, double cashValue, double stockValue) {
         String strHTMLTop = "<!DOCTYPE html><html><body><br></br>";
         String strHTMLBottom = "</body></html>";
         String strHTMLCustInfo = String.format("<h1>%s</h1><p>%s %s</p>"
@@ -40,6 +40,11 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        File f = new File("data\\" + strFileName + ".html");
+        if(f.isFile() && !f.isDirectory()){
+            return true;
+        }
+        return false;
     }
 
     public static void createPDF(String strFileName) {
