@@ -16,26 +16,33 @@ public class test {
             for(int i = 0; i < 1; i++){
                 JSONArray jsonA = (JSONArray) json;
                 JSONObject customerRecord = (JSONObject)  jsonA.get(i);
-                String strFileName = customerRecord.get("account_number").toString();
-                File f = new File("data\\" + strFileName + ".html");
                 StringBuilder strHTMLTableTradeTop = new StringBuilder("test");
                 assertTrue(Main.writeHTML(customerRecord, strHTMLTableTradeTop, 0, 0));
             }
-
         }catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 
     @Test
     void testForPDF() {
-
-    }
-
-    @Test
-    void testValues() {
-
+        try{
+            Object json = new JSONParser().parse(new FileReader("data\\stocks.json"));
+            for(int i = 0; i < 1; i++){
+                JSONArray jsonA = (JSONArray) json;
+                JSONObject customerRecord = (JSONObject)  jsonA.get(i);
+                String strFileName = customerRecord.get("account_number").toString();
+                File pdf = new File("data\\" + strFileName + ".pdf");
+                StringBuilder strHTMLTableTradeTop = new StringBuilder("test");
+                Main.writeHTML(customerRecord, strHTMLTableTradeTop, 0, 0);
+                boolean test = false;
+                if (pdf.isFile() && !pdf.isDirectory()) {
+                    test = true;
+                }
+                assertTrue(test);
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

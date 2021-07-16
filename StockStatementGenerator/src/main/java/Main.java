@@ -16,7 +16,8 @@ public class Main {
         String strHTMLTop = "<!DOCTYPE html><html><body><br></br>";
         String strHTMLBottom = "</body></html>";
         String strHTMLCustInfo = String.format("<h1>%s</h1><p>%s %s</p>"
-                +"<p>%s</p>\r\n", LocalDate.now(), customerRecord.get("first_name"), customerRecord.get("last_name"), customerRecord.get("ssn"));
+                +"<p>%s</p>\r\n", LocalDate.now(), customerRecord.get("first_name"), customerRecord.get("last_name"), customerRecord.get("ssn"), customerRecord.get("email"),
+        customerRecord.get("account_number"));
         String strHTMLSummary = String.format("<p>Cash Value: " + cashValue  + "</p>\r\n<p> Stock Value: " + stockValue
         + "</p>\r\n", "cash", "stock");
 

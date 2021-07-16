@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/10.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/6.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/6.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/7.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/8.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/8.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/9.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/9.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +67,7 @@
       <recent name="C:\Users\abeccaria\Documents\GitHub\OpenSourceDev\StockStatementGenerator\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.testForHTML">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
@@ -107,6 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockStatementGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.testForHTML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StockStatementGenerator" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,10 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.testForPDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StockStatementGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="testForPDF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.testForHTML" />
+        <item itemvalue="JUnit.test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test.testForPDF" />
+        <item itemvalue="JUnit.test.testForHTML" />
       </list>
     </recent_temporary>
   </component>
