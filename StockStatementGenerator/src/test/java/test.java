@@ -13,18 +13,13 @@ public class test {
     void testForHTML() {
         try{
             Object json = new JSONParser().parse(new FileReader("data\\stocks.json"));
-            for(int i = 0; i < 10; i++){
+            for(int i = 0; i < 1; i++){
                 JSONArray jsonA = (JSONArray) json;
                 JSONObject customerRecord = (JSONObject)  jsonA.get(i);
                 String strFileName = customerRecord.get("account_number").toString();
-                Main.writeHTML(customerRecord, null, 0, 0);
                 File f = new File("data\\" + strFileName + ".html");
-                int testNum = 0;
-                if(f.exists() && !f.isDirectory()) {
-                    testNum = 1;
-
-                }
-                assertEquals(1, testNum);
+                StringBuilder strHTMLTableTradeTop = new StringBuilder("test");
+                assertTrue(Main.writeHTML(customerRecord, strHTMLTableTradeTop, 0, 0));
             }
 
         }catch (Exception e) {

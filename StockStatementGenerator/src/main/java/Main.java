@@ -41,10 +41,7 @@ public class Main {
             e.printStackTrace();
         }
         File f = new File("data\\" + strFileName + ".html");
-        if(f.isFile() && !f.isDirectory()){
-            return true;
-        }
-        return false;
+        return f.isFile() && !f.isDirectory();
     }
 
     public static void createPDF(String strFileName) {
