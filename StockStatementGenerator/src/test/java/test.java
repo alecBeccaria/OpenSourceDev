@@ -28,10 +28,7 @@ public class test {
     void testForPDF() {
         Main.createPDF("1");
         File pdf = new File("data\\1.pdf");
-        boolean test = false;
-        if (pdf.isFile() && !pdf.isDirectory()) {
-            test = true;
-        }
+        boolean test = pdf.isFile() && !pdf.isDirectory();
         assertTrue(test);
     }
 }

@@ -60,7 +60,7 @@
       <recent name="C:\Users\abeccaria\Documents\GitHub\OpenSourceDev\StockStatementGenerator\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test">
+  <component name="RunManager" selected="JUnit.test.testForPDF">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
@@ -68,15 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.test.testForPDF" />
+        <item itemvalue="JUnit.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test.testForHTML" />
       </list>
