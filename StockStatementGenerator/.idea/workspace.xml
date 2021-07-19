@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="" />
+    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/7.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/8.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,21 +86,10 @@
       <recent name="C:\Users\abeccaria\Documents\GitHub\OpenSourceDev\StockStatementGenerator\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.testForPDF">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.testForPDF" />
-        <item itemvalue="JUnit.test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.testForPDF" />
         <item itemvalue="JUnit.test.testForHTML" />
       </list>
     </recent_temporary>
@@ -142,6 +157,9 @@
       <workItem from="1626308641432" duration="2343000" />
       <workItem from="1626358188541" duration="2319000" />
       <workItem from="1626391952740" duration="1580000" />
+      <workItem from="1626485120005" duration="112000" />
+      <workItem from="1626703454751" duration="272000" />
+      <workItem from="1626703747814" duration="45000" />
     </task>
     <servers />
   </component>
