@@ -3,7 +3,7 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-        RegExRunner("aaa568 nnn568", "\\d{3}");
+        RegExRunner("Yes5687 Yes5689", "\\p{Upper}");
     }
 
     public static void RegExRunner(String strSearch, String strRegex) {

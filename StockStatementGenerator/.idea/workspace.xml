@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ValidatePhone/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ValidatePhoneNumber" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -160,6 +134,7 @@
       <workItem from="1626485120005" duration="112000" />
       <workItem from="1626703454751" duration="272000" />
       <workItem from="1626703747814" duration="45000" />
+      <workItem from="1626716509386" duration="134000" />
     </task>
     <servers />
   </component>
