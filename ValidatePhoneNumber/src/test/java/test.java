@@ -16,7 +16,7 @@ public class test {
 
     @Test
     public void testNumberSetterInvalid() {
-        String invalidNum = "801-70266500";
+        String invalidNum = "801-7026650";
         Person person = new Person();
         Exception exception = assertThrows(IllegalArgumentException.class, () ->{
             person.setPhone(invalidNum);
