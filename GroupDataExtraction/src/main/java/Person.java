@@ -27,7 +27,6 @@ public class Person {
         m = p.matcher(strLine);
 
         return m;
-
     }
 
     public void validName(Matcher m) {
