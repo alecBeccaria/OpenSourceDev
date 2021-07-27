@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,7 +45,7 @@ public class Validate implements RegexUtility {
 
     @Override
     public boolean isValidPhoneNumber(String phone) {
-        String regex = "([1-9][\\d]?-)?(\\d{3})-(\\d{3})-(\\d{4})";
+        String regex = "^([1-9][\\d]?-)?(\\d{3})-(\\d{3})-(\\d{4})";
         Matcher matchy = MatchyMatchy(phone, regex);
         if(matchy.find()) {
             System.out.println(phone + "\nThis phone number is in Correct format");
@@ -70,12 +71,28 @@ public class Validate implements RegexUtility {
 
     @Override
     public boolean isValidUSStreetAddress(String street) {
-        return false;
+        String regex = "([\\d]+ [NWES]?[\\w]+ [\\w]+ ?[NWES]?)( [\\w+]+[#]? [\\d]+)?\\n([a-zA-Z]+(?:[\\s-][a-zA-Z]+)*), ([A-Z]{2}) ([\\d]+(?:[-][\\w]+)?)";
+        Matcher matchy = MatchyMatchy(street, regex);
+        if(matchy.find()) {
+            System.out.println(street + "\nThis Address is in Correct format");
+            return true;
+        }else {
+            System.out.println(street + "\nThis Address is not in correct format");
+            return false;
+        }
     }
 
     @Override
     public boolean validatePasswordComplexity(String password, int minLength, int minUpper, int minLower, int minNumeric, int minSymbols) {
-        return false;
+        String regex = "([\\d]+ [NWES]?[\\w]+ [\\w]+ ?[NWES]?)( [\\w+]+[#]? [\\d]+)?\\n([a-zA-Z]+(?:[\\s-][a-zA-Z]+)*), ([A-Z]{2}) ([\\d]+(?:[-][\\w]+)?)";
+        Matcher matchy = MatchyMatchy(password, regex);
+        if(matchy.find()) {
+            System.out.println(password + "\nThis Address is in Correct format");
+            return true;
+        }else {
+            System.out.println(password + "\nThis Address is not in correct format");
+            return false;
+        }
     }
 
     @Override
@@ -85,12 +102,29 @@ public class Validate implements RegexUtility {
 
     @Override
     public String getHTMLTagContents(String html, String tagName) {
-        return null;
+        String regex = "<" + tagName + ">(.+?)</" + tagName + ">";
+        System.out.println(regex);
+        Matcher m = MatchyMatchy(html, regex);
+        String tagGroup = null;
+        while (m.find()) {
+            tagGroup = m.group(1);
+        }
+        return tagGroup;
     }
 
     @Override
     public String[] getHTMLTagsContents(String html, String tagName) {
-        return new String[0];
+        ArrayList<String> tags = new ArrayList<String>();
+
+        String regex = "<" + tagName + " (.+?)>(.+?)</" + tagName + ">";
+        System.out.println(regex);
+        Matcher m = MatchyMatchy(html, regex);
+        String tagGroup = null;
+        while (m.find()) {
+            tagGroup = m.group(1);
+            tags.add(tagGroup);
+        }
+        return tags.toArray((new String[0]));
     }
 
     @Override

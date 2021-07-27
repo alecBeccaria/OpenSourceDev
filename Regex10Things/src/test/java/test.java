@@ -19,8 +19,31 @@ public class test {
     }
 
     @Test
+    void testValidNumber() {
+        assertTrue(v.isValidPhoneNumber("307-388-0772"));
+        assertTrue(v.isValidPhoneNumber("1-307-388-0772"));
+        assertTrue(v.isValidPhoneNumber("11-307-388-0772"));
+        assertFalse(v.isValidPhoneNumber("11-307-3883-0772"));
+    }
+
+    @Test
     void testValidSSN() {
         assertTrue(v.isValidSSN("893873453"));
         assertFalse(v.isValidSSN("000000000"));
+    }
+
+    @Test
+    void testValidUSAddress() {
+        assertTrue(v.isValidUSStreetAddress("556 E 300 S Apt# 313\n" +
+                "Salt Lake City, UT 84102-4087"));
+        assertTrue(v.isValidUSStreetAddress("856 Park Ave\n" +
+                "Worland, WY 82401"));
+        assertFalse(v.isValidUSStreetAddress("856 Park Ave\n" +
+                "Worland WY 8201-"));
+    }
+
+    @Test
+    void testPasswordComplexity() {
+        assertTrue(v.validatePasswordComplexity("Tortilla22!", 8, 1, 7, 2, 1));
     }
 }
