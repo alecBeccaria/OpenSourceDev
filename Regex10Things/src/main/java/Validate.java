@@ -169,6 +169,19 @@ public class Validate implements RegexUtility {
 
     @Override
     public String[] getHTMLLinkURL(String html) {
-        return new String[0];
+        ArrayList<String> tags = new ArrayList<String>();
+        String regex = "(<a href=\"(.+?)\">(\\w+)?(<\\/a>)?)";
+        System.out.println(regex);
+        Matcher m = MatchyMatchy(html, regex);
+        String URL = null;
+        int count = 0;
+        while (m.find()) {
+            count++;
+            URL = m.group(2);
+            tags.add(URL);
+
+        }
+        System.out.println(count + " Urls found");
+        return tags.toArray(new String[count]);
     }
 }

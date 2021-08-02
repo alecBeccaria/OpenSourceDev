@@ -9,9 +9,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Validate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StockStatementGenerator/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.test.testPasswordComplexity">
+  <component name="RunManager" selected="JUnit.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Regex10Things" />
@@ -53,23 +53,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.testCountContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regex10Things" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testCountContains" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,11 +72,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testHTMLtagContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.testHTMLURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Regex10Things" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testHTMLtagContents" />
+      <option name="METHOD_NAME" value="testHTMLURL" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.testPasswordComplexity" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.testHTMLURL" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test.testPasswordComplexity" />
         <item itemvalue="JUnit.test.testHTMLTagsContents" />
-        <item itemvalue="JUnit.test.testHTMLtagContents" />
-        <item itemvalue="JUnit.test.testCountContains" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +113,8 @@
       <workItem from="1627310995033" duration="34000" />
       <workItem from="1627328035523" duration="7084000" />
       <workItem from="1627858944205" duration="9196000" />
+      <workItem from="1627925316168" duration="1300000" />
+      <workItem from="1627929555088" duration="32000" />
     </task>
     <servers />
   </component>
