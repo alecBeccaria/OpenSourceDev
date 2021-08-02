@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/Data/people.to.regex.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/Data/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/src/main/java/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/target/classes/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/target/classes/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GroupDataExtraction/target/test-classes/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/main/java/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/main/java/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/classes/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/classes/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/test-classes/test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +145,7 @@
       <workItem from="1626703747814" duration="45000" />
       <workItem from="1626716509386" duration="134000" />
       <workItem from="1627239122716" duration="2287000" />
+      <workItem from="1627867299729" duration="594000" />
     </task>
     <servers />
   </component>

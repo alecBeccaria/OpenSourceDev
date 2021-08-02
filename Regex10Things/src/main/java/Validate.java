@@ -86,45 +86,80 @@ public class Validate implements RegexUtility {
     public boolean validatePasswordComplexity(String password, int minLength, int minUpper, int minLower, int minNumeric, int minSymbols) {
         String regex = "([\\d]+ [NWES]?[\\w]+ [\\w]+ ?[NWES]?)( [\\w+]+[#]? [\\d]+)?\\n([a-zA-Z]+(?:[\\s-][a-zA-Z]+)*), ([A-Z]{2}) ([\\d]+(?:[-][\\w]+)?)";
         Matcher matchy = MatchyMatchy(password, regex);
-        if(matchy.find()) {
-            System.out.println(password + "\nThis Address is in Correct format");
             return true;
         }else {
-            System.out.println(password + "\nThis Address is not in correct format");
-            return false;
+        String minLowerRegex = "[a-z.+?]{7,}";
+        String minNumRegex = "\\d{2,}";
+        String minSymbolsRegex = "\\W+";
+        String currentRegex = "";
+        boolean valid = false;
+        for (int i = 1; i < password.length(); i++){
+                    break;
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    currentRegex = minNumRegex;
+                    break;
+                case 5:
+                    currentRegex = minSymbolsRegex;
+                    break;
+                default:
+                    System.out.println("Nah not supposed to happen");
+            }
+            Matcher matchy = MatchyMatchy(password, currentRegex);
+            if (matchy.find()){
+                valid = true;
+
+            }else {
+                System.out.println("Password not valid");
+                valid = false;
+                break;
+            }
         }
+        return valid;
     }
 
     @Override
     public int countContains(String needle, String haystack) {
-        return 0;
+        String regex = "("+ needle + "+)";
+        Matcher matchy = MatchyMatchy(haystack, regex);
+        int count = 0;
+            while (matchy.find()) {
+                count++;
+            }
+        System.out.println("'"+needle + "' was found " + count + " times.");
+        return count;
     }
 
     @Override
     public String getHTMLTagContents(String html, String tagName) {
-        String regex = "<" + tagName + ">(.+?)</" + tagName + ">";
-        System.out.println(regex);
+        String regex = "<" + tagName + ">(.+?)<\\/" + tagName + ">";
         Matcher m = MatchyMatchy(html, regex);
         String tagGroup = null;
         while (m.find()) {
             tagGroup = m.group(1);
         }
+        System.out.println(tagGroup);
         return tagGroup;
     }
 
     @Override
     public String[] getHTMLTagsContents(String html, String tagName) {
         ArrayList<String> tags = new ArrayList<String>();
-
-        String regex = "<" + tagName + " (.+?)>(.+?)</" + tagName + ">";
+        String regex = String.format("<%s(.+?)?>(.+?)?<\\/%s>", tagName, tagName);
         System.out.println(regex);
         Matcher m = MatchyMatchy(html, regex);
         String tagGroup = null;
+        int count = 0;
         while (m.find()) {
+            count++;
             tagGroup = m.group(1);
             tags.add(tagGroup);
+            //System.out.println(tagGroup);
         }
-        return tags.toArray((new String[0]));
+        return tags.toArray(new String[count]);
+
     }
 
     @Override

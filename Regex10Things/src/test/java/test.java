@@ -44,6 +44,24 @@ public class test {
 
     @Test
     void testPasswordComplexity() {
-        assertTrue(v.validatePasswordComplexity("Tortilla22!", 8, 1, 7, 2, 1));
+        assertTrue(v.validatePasswordComplexity("Tortilla2255!", 8, 1, 7, 2, 1));
+    }
+
+    @Test
+    void testCountContains(){
+        assertEquals(6, v.countContains("yes", "yes no yes yes no yes no yes yes"));
+
+    }
+    @Test
+    void testHTMLTagContents(){
+        assertTrue(v.getHTMLTagContents("<h1>My First Heading</h1>", "h1").equals("My First Heading"));
+    }
+
+    @Test
+    void testHTMLTagsContents() {
+        String[] str = new String[1];
+        str = v.getHTMLTagsContents("<h1 href='link'>yes</h1>", "h1");
+
+       assertTrue(str[0].equals(" href='link'"));
     }
 }
