@@ -84,19 +84,23 @@ public class Validate implements RegexUtility {
 
     @Override
     public boolean validatePasswordComplexity(String password, int minLength, int minUpper, int minLower, int minNumeric, int minSymbols) {
-        String regex = "([\\d]+ [NWES]?[\\w]+ [\\w]+ ?[NWES]?)( [\\w+]+[#]? [\\d]+)?\\n([a-zA-Z]+(?:[\\s-][a-zA-Z]+)*), ([A-Z]{2}) ([\\d]+(?:[-][\\w]+)?)";
-        Matcher matchy = MatchyMatchy(password, regex);
-            return true;
-        }else {
+        String minLengthRegex = "\\w{8,}";
+        String minUpperRegex = "[A-Z]+";
         String minLowerRegex = "[a-z.+?]{7,}";
         String minNumRegex = "\\d{2,}";
         String minSymbolsRegex = "\\W+";
         String currentRegex = "";
         boolean valid = false;
         for (int i = 1; i < password.length(); i++){
+            switch (i){
+                case 1:
+                    currentRegex = minLengthRegex;
                     break;
+                case 2:
+                    currentRegex = minUpperRegex;
                     break;
                 case 3:
+                    currentRegex = minLowerRegex;
                     break;
                 case 4:
                     currentRegex = minNumRegex;
@@ -109,6 +113,7 @@ public class Validate implements RegexUtility {
             }
             Matcher matchy = MatchyMatchy(password, currentRegex);
             if (matchy.find()){
+                System.out.println(password);
                 valid = true;
 
             }else {
