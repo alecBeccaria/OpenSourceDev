@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13114d2e-fa06-491e-91a5-c0eefb04da5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Regex10Things/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/main/java/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/main/java/Validate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/classes/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/classes/Validate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Regex10Things/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Regex10Things/target/test-classes/test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/1.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +65,21 @@
       <recent name="C:\Users\abeccaria\Documents\GitHub\OpenSourceDev\StockStatementGenerator\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StockStatementGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test.testForPDF" />
         <item itemvalue="JUnit.test.testForHTML" />
       </list>
@@ -146,6 +153,7 @@
       <workItem from="1626716509386" duration="134000" />
       <workItem from="1627239122716" duration="2287000" />
       <workItem from="1627867299729" duration="594000" />
+      <workItem from="1627931357732" duration="97000" />
     </task>
     <servers />
   </component>
