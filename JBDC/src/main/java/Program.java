@@ -4,15 +4,16 @@ import java.util.*;
 public class Program {
 
     public static void main(String[] args) {
+        testConnection();
         //selectAuthorsST();
         //updateBook();
         //insertBook();
         //deleteBook(1);
-        selectAuthors(4, "Emi");
+        //selectAuthors(4, "Emi");
     }
 
     static String url = "jdbc:mysql://localhost:3306/"
-            + "testdb?allowPublicKeyRetrieval=true&useSSL=false";
+            + "Book?allowPublicKeyRetrieval=true&useSSL=false";
     static String user = "root";
     static String password = "test";
 
@@ -26,6 +27,7 @@ public class Program {
 
             if (rs.next()) {
                 System.out.println(rs.getString(1));
+                System.out.println("Connection Successful");
             }
         } catch (Exception e) {
             e.printStackTrace();
