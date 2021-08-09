@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class Person {
+public class Person implements Serializable {
 
     private String fullName;
     private String firstName;
@@ -88,8 +89,6 @@ public class Person {
 
             m = MatchyMatchy(line, regexPhone);
             validPhone(m);
-
-
         }
     }
 
@@ -99,7 +98,7 @@ public class Person {
     @Override
     public String toString() {
         return String.format(
-                "Full Name: %s\r\nFirstName: %s\r\nLast Name: %s\r\nSSN: %s\r\nEmail: %s\r\nPhone: %s\r\n",
+                "Full Name: %s\r\nFirst Name: %s\r\nLast Name: %s\r\nSSN: %s\r\nEmail: %s\r\nPhone: %s\r\n",
                 this.fullName, this.firstName, this.lastName, this.ssn, this.email, this.phone);
 
     }
