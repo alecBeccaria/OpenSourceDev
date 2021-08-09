@@ -9,7 +9,6 @@ import java.util.List;
 
 public class Driver {
 
-
     public static boolean readCSV(String file){
         boolean valid = false;
         try{
