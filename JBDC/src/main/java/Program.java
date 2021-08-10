@@ -1,5 +1,5 @@
 import java.sql.*;
-import java.util.*;
+
 
 public class Program {
 
@@ -53,24 +53,26 @@ public class Program {
         }
     }
 
-    public static void updateBook() {
-        String sql = "UPDATE Books SET Title = 'Crime & Punishment' Where id=2";
+    public static void updateBook(String title, int id) {
+        String sql = "UPDATE Books SET Title = (?) Where id=(?)";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
-            Statement st = con.createStatement();
-
-            st.executeUpdate(sql);
+            PreparedStatement pst = con.prepareStatement(sql);
+            pst.setString(1, title);
+            pst.setInt(2, id);
+            pst.executeUpdate(sql);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static void insertBook() {
-        String sql = "INSERT INTO Authors(Name) Values('Brandon Sanderson')";
+    public static void insertBook(String name) {
+        String sql = "INSERT INTO Authors(Name) Values(?)";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
-            Statement st = con.createStatement();
-            st.executeUpdate(sql);
+            PreparedStatement pst = con.prepareStatement(sql);
+            pst.setString(1, name);
+            pst.executeUpdate(sql);
         } catch (Exception e) {
             e.printStackTrace();
         }
