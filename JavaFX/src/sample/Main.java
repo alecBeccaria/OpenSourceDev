@@ -10,16 +10,18 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage stage) throws Exception{
         Pane mainPane = (Pane) FXMLLoader.load(
-                Main.class.getResource("Sample.fxml"));
+                Main.class.getResource("sample.fxml"));
         stage.setScene(new Scene(mainPane));
         stage.show();
     }
 
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+
 }
