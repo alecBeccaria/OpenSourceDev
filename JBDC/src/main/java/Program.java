@@ -4,16 +4,16 @@ import java.util.*;
 public class Program {
 
     public static void main(String[] args) {
-        testConnection();
+       // testConnection();
         //selectAuthorsST();
         //updateBook();
         //insertBook();
-        //deleteBook(1);
-        //selectAuthors(4, "Emi");
+       // deleteBook(1);
+        selectAuthors(4, "Emi");
     }
 
     static String url = "jdbc:mysql://localhost:3306/"
-            + "Book?allowPublicKeyRetrieval=true&useSSL=false";
+            + "Books?allowPublicKeyRetrieval=true&useSSL=false";
     static String user = "root";
     static String password = "test";
 
@@ -36,7 +36,7 @@ public class Program {
 
     public static void selectAuthorsST() {
         //String sql = "Select * from Authors where id= " + 1;
-        String sql = "Select id, name from Authors";
+        String sql = "Select id, Name from Authors";
 
         try (Connection con = DriverManager.getConnection(url, user, password);
              Statement st = con.createStatement();
@@ -92,7 +92,7 @@ public class Program {
 
     public static void selectAuthors(int intAuthorID, String strName) {
         //String sql = "Select * from Authors where id= " + 1;
-        String sql = "Select id, name from Authors where id =(?) and name=(?)";
+        String sql = "Select * from Authors where id =(?) and name=(?)";
 
         try  {
             Connection con = DriverManager.getConnection(url, user, password);
@@ -100,7 +100,7 @@ public class Program {
             PreparedStatement pst = con.prepareStatement(sql);
             //ResultSet rs = st.executeQuery(sql);
             ResultSet rs = pst.executeQuery(sql);
-            pst.setInt(1,4);
+            pst.setInt(1,intAuthorID);
             pst.setString(2,strName);
             pst.executeQuery();
 
