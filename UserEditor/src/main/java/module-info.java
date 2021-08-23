@@ -1,5 +1,6 @@
 module UserEditor {
     requires javafx.controls;
+    requires java.base;
     requires javafx.fxml;
     requires javafx.graphics;
     requires java.sql;

@@ -36,14 +36,6 @@ public class FXMLDocumentController implements Initializable {
     private TextField Email;
 
 
-
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
-    }
-
-
     @FXML
     private void onClickLogin(ActionEvent event) {
         FxmlLoader object = new FxmlLoader();
@@ -73,6 +65,14 @@ public class FXMLDocumentController implements Initializable {
     private void onClickCreateAccount () {
 
     }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+    }
+
+
+
 
 
 }

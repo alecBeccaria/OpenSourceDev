@@ -25,20 +25,15 @@ public class DBController {
         }
     }
 
-    public static void selectAuthorsST() {
+    public static void selectPerson(int id) {
         //String sql = "Select * from Authors where id= " + 1;
-        String sql = "Select id, Name from Authors";
+        String sql = "Select * from People where PersonID= (?)";
 
-        try (Connection con = DriverManager.getConnection(url, user, password);
-             Statement st = con.createStatement();
-             ResultSet rs = st.executeQuery(sql)) {
-
-            while (rs.next()) {
-                System.out.println(rs.getInt(1));
-                System.out.print(": ");
-                System.out.println(rs.getString(2));
-            }
-
+        try {
+            Connection con = DriverManager.getConnection(url, user, password);
+            PreparedStatement pst = con.prepareStatement(sql);
+            pst.setInt(1, id);
+            pst.executeQuery(sql);
         } catch (Exception e) {
             e.printStackTrace();
         }
