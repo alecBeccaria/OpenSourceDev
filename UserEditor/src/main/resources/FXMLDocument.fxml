@@ -6,23 +6,23 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FXMLDocumentController">
    <children>
       <BorderPane fx:id="mainPane" layoutX="14.0" layoutY="8.0" prefHeight="378.0" prefWidth="559.0">
          <left>
             <VBox prefHeight="378.0" prefWidth="140.0" style="-fx-background-color: purple;" BorderPane.alignment="CENTER">
                <children>
-                  <Button mnemonicParsing="false" onAction="#btn1Click" prefHeight="31.0" prefWidth="121.0" text="Form 1">
+                  <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="31.0" prefWidth="121.0" text="Login">
                      <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#btn2Click" prefHeight="30.0" prefWidth="122.0" text="Form 2">
+                  <Button fx:id="btnAccount" mnemonicParsing="false" onAction="#onClickAccount" prefHeight="30.0" prefWidth="122.0" text="Create Account">
                      <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" onAction="#btn3Click" prefHeight="32.0" prefWidth="127.0" text="Form 3">
+                  <Button fx:id="btnHome" mnemonicParsing="false" onAction="#onClickHome" prefHeight="32.0" prefWidth="127.0" text="Home">
                      <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </VBox.margin>
