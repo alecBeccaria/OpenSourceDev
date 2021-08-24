@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Main {
-
     public static void demo() {
 
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
@@ -60,7 +59,7 @@ public class Main {
         //old way
         for (Person person: people)
         {
-            if(person.getStrState().equals("UT"))
+            if(person.getState().equals("UT"))
                 utahns.add(person);
         }
         System.out.println(utahns);
@@ -68,13 +67,53 @@ public class Main {
     }
 
     public static void NewWayUtah(List<Person> people) {
-        List<Person> utahns= people.stream().filter(person -> person.getStrState().equals("UT")).collect(Collectors.toList());
-
+        List<Person> utahns= people.stream().filter(person -> person.getState().equals("UT")).collect(Collectors.toList());
         System.out.println(utahns);
     }
 
+    public static void floridaMan(List<Person> people) {
+        List<Person> floridaMan = people.stream().filter(person -> person.getState().equals("FL")).collect(Collectors.toList());
+        System.out.println(floridaMan);
+    }
+
+    public static void NewWayDoNet(List<Person> people){
+        List<Person> dotNetOrAE = people.stream().filter
+                (person -> (person.getName().charAt(0) >= 'A' &&
+                        person.getName().charAt(0) <= 'E')
+                || person.getEmail().endsWith(".net")).collect(Collectors.toList());
+        for (Person p: dotNetOrAE){
+            System.out.println(p.getName());
+            System.out.println(p.getEmail());
+            System.out.print("\n");
+        }
+    }
+
+    public static void NewWayCAUT(List<Person> people) {
+        List<Person> phoneNumberInCAUT = people.stream().filter
+                        (p -> p.getState().equals("CA") || p.getState().equals("UT"))
+                .sorted(Comparator.comparing(Person::getPhone)).collect(Collectors.toList());
+
+        for (Person p : phoneNumberInCAUT) {
+            System.out.println(p.getPhone());
+            System.out.println(p.getState());
+        }
+    }
+
+    public static void qAnonFinderLol(List<Person> people) {
+        List<Person> qEmail = people.stream().filter
+                (p -> p.getEmail().contains("q")).sorted(Comparator.comparing(Person::getName))
+                .collect(Collectors.toList());
+        for (Person p: qEmail){
+            System.out.println(p.getName());
+            System.out.println(p.getEmail() + "\n");
+        }
+    }
+
     public static void main(String[] args) {
-        //demo();
-        GetPeople();
+        List<Person> people = GetPeople();
+        floridaMan(people);
+        NewWayDoNet(people);
+        NewWayCAUT(people);
+        qAnonFinderLol(people);
     }
 }

@@ -8,60 +8,74 @@ public class Person {
     private String strCity;
     private String strState;
     private String strZip;
+    private String strPhone;
 
-    public String getStrName() {
+    public String getPhone() {
+        return strPhone;
+    }
+
+    public void setPhone(String strPhone) {
+        this.strPhone = strPhone;
+    }
+
+    public String getName() {
         return strName;
     }
 
-    public void setStrName(String strName) {
+    public void setName(String strName) {
         this.strName = strName;
     }
 
-    public String getStrSSN() {
+    public String getSSN() {
         return strSSN;
     }
 
-    public void setStrSSN(String strSSN) {
+    public void setSSN(String strSSN) {
         this.strSSN = strSSN;
     }
 
-    public String getStrEmail() {
+    public String getEmail() {
         return strEmail;
     }
 
-    public void setStrEmail(String strEmail) {
+    public void setEmail(String strEmail) {
         this.strEmail = strEmail;
     }
 
-    public String getStrStreet() {
+    public String getStreet() {
         return strStreet;
     }
 
-    public void setStrStreet(String strStreet) {
+    public void setStreet(String strStreet) {
         this.strStreet = strStreet;
     }
 
-    public String getStrCity() {
+    public String getCity() {
         return strCity;
     }
 
-    public void setStrCity(String strCity) {
+    public void setCity(String strCity) {
         this.strCity = strCity;
     }
 
-    public String getStrState() {
+    public String getState() {
         return strState;
     }
 
-    public void setStrState(String strState) {
+    public void setState(String strState) {
         this.strState = strState;
     }
 
-    public String getStrZip() {
+    public String getZip() {
         return strZip;
     }
 
-    public void setStrZip(String strZip) {
+    public void setZip(String strZip) {
         this.strZip = strZip;
+    }
+
+    @Override
+    public String toString() {
+        return this.strName + " " + this.strState;
     }
 }
