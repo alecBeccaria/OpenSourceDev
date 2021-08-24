@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        DBController.testConnection();
+        DB.testConnection();
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("FXMLDocument.fxml"));
         Scene scene = new Scene(root, 800, 400);
         stage.setTitle("User Editor");

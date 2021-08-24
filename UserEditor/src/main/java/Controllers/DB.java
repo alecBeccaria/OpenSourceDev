@@ -2,11 +2,11 @@ package Controllers;
 
 import java.sql.*;
 
-public class DBController {
-    static String url = "jdbc:mysql://localhost:3306/"
+public class DB {
+    private static String url = "jdbc:mysql://localhost:3306/"
             + "People?allowPublicKeyRetrieval=true&useSSL=false";
-    static String user = "root";
-    static String password = "test";
+    private static String user = "root";
+    private static String password = "root";
 
     public static void testConnection() {
         String sql = "SELECT VERSION()";
@@ -25,13 +25,15 @@ public class DBController {
         }
     }
 
-    public static void selectPerson(int id) {
+
+    public static void selectPersonID(int id) {
         //String sql = "Select * from Authors where id= " + 1;
-        String sql = "Select * from People where PersonID= (?)";
+        String sql = "Select * from people where PersonID= (?)";
 
         try {
             Connection con = DriverManager.getConnection(url, user, password);
             PreparedStatement pst = con.prepareStatement(sql);
+            ResultSet rs = pst.executeQuery(sql);
             pst.setInt(1, id);
             pst.executeQuery(sql);
         } catch (Exception e) {
@@ -39,33 +41,55 @@ public class DBController {
         }
     }
 
+    public static ResultSet selectPersonAccount(String inPassword, String userName) {
+        //String sql = "Select * from Authors where id= " + 1;
+
+        try  {
+            String sql = "Select FirstName, LastName, UserName, Email, UserPassword from people where UserName=? and UserPassword=?";
+            Connection con = DriverManager.getConnection(url, user, password);
+            PreparedStatement pst = con.prepareStatement(sql);
+            pst.setString(1,userName);
+            pst.setString(2,inPassword);
+            return pst.executeQuery();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static void updateBook(String title, int id) {
-        String sql = "UPDATE Books SET Title = (?) Where id=(?)";
+        String sql = "UPDATE person SET Title = (?) Where id=(?)";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
             PreparedStatement pst = con.prepareStatement(sql);
             pst.setString(1, title);
             pst.setInt(2, id);
-            pst.executeUpdate(sql);
+            pst.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static void insertPerson(String name) {
-        String sql = "INSERT INTO Authors(Name) Values(?)";
+    public static void insertPerson(String FirstName, String LastName, String UserName, String Email, String UserPassword) {
+        String sql = "INSERT INTO people (FirstName, LastName, UserName, Email, UserPassword) " +
+                "VALUES (?, ?, ?, ?, ?)";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
             PreparedStatement pst = con.prepareStatement(sql);
-            pst.setString(1, name);
-            pst.executeUpdate(sql);
+            pst.setString(1, FirstName);
+            pst.setString(2, LastName);
+            pst.setString(3, UserName);
+            pst.setString(4, Email);
+            pst.setString(5, UserPassword);
+            pst.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static void deleteBook(int strBookID) {
-        String sql = "DELETE FROM Books WHERE id=(?)";
+    public static void deletePerson(int strBookID) {
+        String sql = "DELETE FROM People WHERE id=(?)";
         try {
             Connection con = DriverManager.getConnection(url, user, password);
             //Statement st = con.createStatement();
@@ -78,28 +102,5 @@ public class DBController {
         }
     }
 
-    public static void selectAuthors(int intAuthorID, String strName) {
-        //String sql = "Select * from Authors where id= " + 1;
-        String sql = "Select * from Authors where id =(?) and name=(?)";
 
-        try  {
-            Connection con = DriverManager.getConnection(url, user, password);
-            //Statement st = con.createStatement();
-            PreparedStatement pst = con.prepareStatement(sql);
-            //ResultSet rs = st.executeQuery(sql);
-            ResultSet rs = pst.executeQuery(sql);
-            pst.setInt(1,intAuthorID);
-            pst.setString(2,strName);
-            pst.executeQuery();
-
-            while (rs.next()) {
-                System.out.println(rs.getInt(1));
-                System.out.print(": ");
-                System.out.println(rs.getString(2));
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }
