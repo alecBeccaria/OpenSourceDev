@@ -1,4 +1,4 @@
-package Controllers;
+package Classes;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,11 +8,11 @@ import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class scrape {
+public class TheStart {
 
     public static void main(String[] args) {
-
-        String strURL = "https://github.com/";
+        DB.testConnection();
+        String strURL = "https://nytimes.com";
         String strInputLine = "", strTotalSource = "";
 
         try {
@@ -25,22 +25,22 @@ public class scrape {
                     (new InputStreamReader(conn.getInputStream()));
 
             while ((strInputLine = br.readLine()) != null) {
-                strTotalSource += strInputLine;
+                strTotalSource += strInputLine + "\n";
 
             }
             br.close();
             //System.out.println(strTotalSource);
 
             //Pattern p = Pattern.compile("<title[^>]*>(.+?)</title>");
-            Pattern p = Pattern.compile("<a (.*?)href=\"(.+?)\"(.*?)>(.+?)</a>");
+            Pattern p = Pattern.compile("<a (.+?)href=\"(.+?)\"(.+?)>(.+?)</a>");
             Matcher m = p.matcher(strTotalSource);
-            int numcount = 0;
+            StringBuilder sb = new StringBuilder();
             while(m.find())
             {
-                numcount++;
+                sb.append(m.group(2));
                 System.out.println(m.group(2));
             }
-            System.out.println(numcount);
+            DB.insertContent(sb.toString(), strURL);
 
 
         } catch (Exception e) {
